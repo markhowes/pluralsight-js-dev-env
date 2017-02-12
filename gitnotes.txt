@@ -1,0 +1,9 @@
+Stage all the files you changed
+git add .
+
+Commit your changes locally
+git commit -m "added new feature"
+
+Push your work to Github
+git push
+
