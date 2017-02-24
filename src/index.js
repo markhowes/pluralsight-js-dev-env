@@ -20,6 +20,7 @@ getUsers().then(result => {
   const deleteLinks = global.document.getElementsByClassName('deleteUser');
   // Must use array, from to create a real array from a DOM collection
   // getElementByClassName only returns an "array like" object
+  // Would be cleaner in React or Angular framework
 
   Array.from(deleteLinks, link => {
     link.onclick = function(event) {
